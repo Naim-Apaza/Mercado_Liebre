@@ -1,0 +1,44 @@
+body{
+    background-color: #EAC926;
+    font-family: 'Roboto', sans-serif;
+}
+p{
+    font-size: 12px;
+}
+h2{
+    font-size: 24px;
+}
+h3{
+    font-size: 16px;
+}
+#cuotas{
+    display: flex;
+    text-align: center;
+}
+.compra{
+     display: flex;
+     justify-content: center;
+}
+.medio{
+    width: 90%;
+}
+.fa-credit-card{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.fa-gift{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.fa-user-shield{
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+.burger{
+    display: flex;
+    justify-content: center;
+    background-color: #03264C;
+    padding: 1px;
+    border: solid 1px black;
+    margin: 2px;
+}
