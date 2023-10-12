@@ -10,7 +10,9 @@ app.listen(3001, ()=>{
     console.log('Servidor 3001')
 });
 
-app.get('/', (req, res)=>{
-    res.sendFile(path.resolve(__dirname, './views/home.html'))
-});
+//uso de ruta
+const home = path.resolve(__dirname, './views/home.html')
 
+app.get('/', (req, res)=>{
+    res.sendFile(home)
+});
